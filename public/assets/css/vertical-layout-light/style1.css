@@ -1,0 +1,2436 @@
+* {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.adding_page1 {
+    background-color: rgb(255, 255, 255) !important;
+    height: 120vh !important;
+}
+
+.user_reports {
+    position: relative;
+    background-color: #1b1a1a;
+    height: 35px;
+    max-width: 61%;
+    color: #fff;
+    border-radius: 7px;
+    padding-right: 3px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 40px !important;
+    font-family: Cairo;
+    border-right: 5px solid #f6b83e;
+}
+
+.first_page {
+    max-width: 600px;
+}
+
+.interface {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.forner {
+    position: relative;
+    align-items: center;
+    display: flex;
+    background-color: #1b1a1a;
+    width: 820px;
+    height: 321px;
+}
+
+.right_images {
+    position: absolute;
+    right: 5%;
+    top: 5px;
+}
+
+.whole_page2 {
+    position: relative;
+    align-items: center;
+    display: flex;
+    background-color: #1b1a1a;
+    max-width: 820px;
+    width: 100%;
+    height: 331px;
+}
+
+.whole_page3 {
+    position: relative;
+    align-items: center;
+    display: flex;
+    background-color: #1b1a1a;
+    max-width: 820px;
+    width: 100%;
+}
+
+.content2 {
+    position: relative;
+    /* align-items: center; */
+    /* display: flex; */
+    max-width: 820px;
+    /* max-width: 820px; */
+    width: 100%;
+}
+
+@media only screen and (max-width: 380px) {
+    .forner2 {
+        margin-right: 14%;
+    }
+
+    .add_user_report {
+        font-size: 12px;
+        font-family: Cairo;
+        line-height: auto;
+        top: 24px;
+        background-color: #1b1a1a;
+        height: 27px;
+        border-radius: 7px;
+        border: 1px solid #1b1a1a;
+        width: 120px;
+        color: #fff;
+    }
+
+    .update {
+        padding-left: 10px !important;
+    }
+
+    .previous_reports {
+        font-size: 16px !important;
+        margin-right: 20px !important;
+    }
+}
+
+.interface {
+    position: relative;
+    align-items: center;
+    display: flex;
+    background-color: #1b1a1a;
+    width: 400px;
+    height: 321px;
+    max-width: 600px !important;
+}
+
+.forner3 {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #1b1a1a;
+    width: 820px;
+    height: 67px;
+}
+
+.alert3 {
+    width: 820px;
+    height: 67px;
+    font-family: "cairo";
+}
+
+.account_errors {
+    position: relative;
+    width: 820px;
+    font-family: "cairo";
+    padding-right: 35px;
+}
+
+.user_report_icon {
+    position: absolute;
+    right: 11%;
+    /* margin-top: -20px; */
+}
+
+.logo10 {
+    display: flex;
+    height: 44px;
+    width: 100%;
+    left: 99px;
+    top: 107px;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.chat_edit_label {
+    color: #fff;
+    margin-top: 13px;
+}
+
+.user_report_system {
+    position: absolute;
+    width: 80%;
+    top: 190px;
+    font-size: 24px;
+    font-family: Cairo;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.line {
+    position: absolute;
+    width: 30%;
+    top: 240px;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+@media only screen and (max-width: 330px) {
+    .group_names {
+        padding-right: 142px !important;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .group_names {
+        padding-right: 12% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .group_names {
+        padding-right: 14% !important;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .get_back_edeting {
+        font-size: 24px !important;
+        margin-right: -31px !important;
+        margin-top: 12px !important;
+    }
+
+    .group_buttons {
+        width: 29% !important;
+        margin-top: -11px;
+        font-size: 12px;
+    }
+
+    .group_buttons {
+        background-color: #fff;
+        color: #1b1a1a;
+        border-radius: 5px;
+        width: 21%;
+        position: absolute;
+        margin-top: -11px;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .groups_label {
+        margin-top: 37px !important;
+    }
+
+    .group_photo1 {
+        width: 57px !important;
+        height: 57px !important;
+    }
+
+    .update {
+        margin-top: -36px !important;
+        height: 30px !important;
+        font-size: 12px;
+        padding-left: 12px !important;
+        padding-top: 5px !important;
+    }
+
+    .account_settings {
+        width: 111px !important;
+    }
+
+    .group_photo2 {
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    .get_back_chats {
+        font-size: 24px !important;
+        margin-right: -5px !important;
+        margin-top: 19px !important;
+    }
+
+    .get_back_account {
+        font-size: 24px !important;
+        margin-right: -5px !important;
+        margin-top: 19px !important;
+    }
+
+    .plus {
+        margin-right: 4px !important;
+        margin-top: 11px !important;
+        font-size: 11px;
+    }
+
+    .add_report_label {
+        margin-top: 7px !important;
+    }
+
+    .chat_icon {
+        font-size: 18px !important;
+        margin-top: 23px !important;
+    }
+
+    .account_icon_title {
+        font-size: 18px !important;
+        margin-top: 23px !important;
+    }
+
+    .chat_label {
+        margin-top: 24px !important;
+        margin-right: 52px !important;
+    }
+
+    .account_label_title {
+        margin-top: 24px !important;
+        margin-right: 52px !important;
+    }
+
+    .group_icon {
+        margin-top: 34px !important;
+        width: 1.5em !important;
+    }
+
+    .get_back_groups {
+        font-size: 24px !important;
+        margin-right: -4px !important;
+    }
+
+    .get_back {
+        margin-top: 9px !important;
+        margin-right: -26px !important;
+        font-size: 24px !important;
+    }
+
+    .setting_account {
+        margin-top: 32px !important;
+    }
+
+    .line_down {
+        width: 55%;
+        height: 4px;
+    }
+
+    .user_reports {
+        margin-left: 20px !important;
+    }
+
+    .previous_reports {
+        font-size: 17px !important;
+        margin-right: 20px !important;
+    }
+
+    .update:hover {
+        position: absolute;
+        width: 20%;
+        background-color: #383232;
+        color: #dcb567;
+        margin-right: 10%;
+        height: 32px;
+        border-radius: 5px;
+        left: 8%;
+        margin-top: -35px;
+        min-width: 29px;
+        max-width: 55px;
+        padding-left: 15px !important;
+        padding-top: 5px !important;
+        text-decoration: none;
+    }
+
+    .login {
+        width: 117px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .camera_background {
+        margin-right: 250px;
+    }
+
+    .username2 {
+        font-size: 17px !important;
+        font-family: Cairo !important;
+    }
+
+    .job_position {
+        font-size: 12px;
+    }
+
+    .group_buttons2 {
+        margin-left: 4%;
+        width: 27%;
+    }
+
+    .group_buttons b {
+        font-size: 12px;
+    }
+
+    .user_report_type label {
+        font-size: 12px;
+    }
+
+    .user_photo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .more {
+    }
+
+    .account_label {
+        position: absolute;
+        font-size: 11px !important;
+        font-weight: 300 !important;
+        margin-right: -4px;
+        margin-top: 4px !important;
+    }
+
+    .account_label_account {
+        position: absolute;
+        font-size: 11px !important;
+        font-weight: 300 !important;
+        margin-right: -44px !important;
+        margin-top: 4px !important;
+    }
+
+    .logout {
+        font-size: 14px !important;
+        width: 111px !important;
+        padding-left: 7px;
+    }
+
+    .logout_label {
+        position: absolute;
+        margin-top: -13px;
+        margin-right: -25px;
+        font-size: 12px;
+    }
+
+    /* 
+    .logout label {
+        margin-right: -9px;
+        margin-left: 2px;
+        font-size: 12px;
+        font-weight: 700;
+    } */
+
+    .account_gear_pages {
+        margin-top: 23px !important;
+        left: 139px !important;
+        font-size: 15px !important;
+    }
+
+    .account_gear {
+        left: 135px !important;
+    }
+
+    .signout_pages {
+        position: absolute !important;
+        margin-top: 58px !important;
+        left: 135px !important;
+        font-size: 15px !important;
+    }
+
+    .signout {
+        left: 135px !important;
+    }
+
+    .user_reports {
+        font-size: 12px;
+    }
+
+    .whole_page {
+        width: 80%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .input_icon_send {
+        margin-right: 0%;
+        margin-left: 0%;
+        min-width: 90%;
+        bottom: 40px !important;
+    }
+
+    .sending_icon {
+        left: 13%;
+    }
+}
+
+.username1 {
+    font-size: 20px;
+    font-family: Cairo !important;
+    width: 100%;
+    /* margin-right: 30%; */
+    background-color: #f0f0f0;
+    height: 31px;
+    border-radius: 10px;
+    border: 1px solid rgba(27, 26, 26, 0.5099999904632568);
+}
+
+.password {
+    position: absolute;
+    font-size: 20px;
+    font-family: Cairo;
+    margin-top: 150px;
+    margin-right: 75px;
+    max-width: 600px;
+}
+
+.login1 {
+    position: relative;
+    font-size: 20px;
+    font-family: Cairo;
+    max-width: 600px;
+}
+
+.password1 {
+    position: absolute;
+    font-size: 30px;
+    font-family: Cairo;
+    width: 30%;
+    display: flex;
+    margin-left: 20%;
+    background-color: #f0f0f0;
+    height: 31px;
+    width: 252px;
+    border-radius: 10px;
+    border: 1px solid rgba(27, 26, 26, 0.5099999904632568);
+}
+
+@media only screen and (max-width: 300px) {
+    .login {
+        width: 86px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .camera_background {
+        margin-right: 53%;
+        width: 40px;
+        height: 40px;
+        margin-top: -127px;
+    }
+
+    .account_logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .camera {
+        font-size: 27px;
+        margin-right: 7px;
+    }
+}
+
+.forgetting {
+    position: relative;
+    color: rgba(27, 26, 26, 0.5699999928474426);
+    vertical-align: text-top;
+    font-size: 20px;
+    font-family: Cairo;
+    line-height: auto;
+    border-style: hidden;
+    margin-top: 28px;
+}
+
+.username2 {
+    position: absolute;
+    max-width: 600px;
+    top: 190px;
+    font-size: 22px;
+    font-family: Cairo !important;
+    color: #fff;
+}
+
+.job_position {
+    position: absolute;
+    top: 220px;
+    font-size: 17px;
+    font-family: Cairo;
+    color: #f6b83e;
+
+    justify-content: center;
+}
+
+.user_photo {
+    position: absolute;
+    display: flex;
+    width: 114px;
+    height: 114px;
+    margin-top: -85px;
+    justify-content: center;
+    border-radius: 50%;
+    border: solid 4px #fff;
+    max-width: 600px;
+}
+
+.logo {
+    height: 19px;
+    width: 70px;
+    right: 10%;
+    top: 25px;
+    position: absolute;
+    z-index: 1;
+}
+
+.user_report_system2 {
+    position: absolute;
+    width: 80px;
+    top: 48px;
+    font-family: Cairo;
+    color: #ffffff;
+    right: 9%;
+    font-size: 14px;
+}
+
+.line2 {
+    position: absolute;
+    width: 70px;
+    top: 75px;
+    right: 9%;
+    height: 3px;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 541px) and (min-width: 538px) {
+    .login1 {
+        margin-right: 15% !important;
+    }
+}
+
+@media only screen and (max-width: 538px) and (min-width: 300px) {
+    .login1 {
+        margin-left: 8% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .line2 {
+        width: 65px;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .user_report_system2 {
+        font-size: 12px;
+    }
+
+    .add_user_report {
+        font-size: 13px;
+        font-family: Cairo;
+        line-height: auto;
+        top: 24px;
+        background-color: #1b1a1a;
+        height: 25px;
+        border-radius: 7px;
+        border: 1px solid #1b1a1a;
+        width: 130px;
+        color: #fff;
+    }
+}
+
+.icon {
+    position: absolute;
+    color: #fff;
+    top: 14px;
+    left: 24px;
+    font-size: 30px;
+}
+
+.group_buttons2 {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 90px;
+    width: 100%;
+    right: -11%;
+}
+
+.group_buttons {
+    background-color: #fff;
+    color: #1b1a1a;
+    border-radius: 5px;
+    width: 21%;
+    position: absolute;
+    margin-top: -11px;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.all_user_reports {
+    background-color: #ffffff;
+    height: 100px;
+    width: 100%;
+    border-radius: 52.5px 52.5px 0px 0px;
+    position: relative;
+    /* top: 305px; */
+    margin-top: -48px;
+}
+
+.all_user_reports .previous_reports {
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.all_user_reports label {
+    /* margin-right: 25px; */
+
+    font-size: 18px;
+}
+
+.basic_user_report {
+    position: absolute;
+    max-width: 820px;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: white !important;
+}
+
+.user_report_type {
+    margin-right: 10px;
+    background-color: rgba(59, 57, 57, 0.07999999821186066);
+    min-width: 50px;
+    width: 70%;
+    border-radius: 7px;
+    border: 1px solid rgba(27, 26, 26, 0.029999999329447746);
+    padding-bottom: -9px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.user_report_type span {
+    background-color: #f6b83e;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+
+.update {
+    position: absolute;
+    width: 20%;
+    background-color: #1b1a1a;
+    color: #f6b83e;
+    margin-right: 10%;
+    height: 32px;
+    border-radius: 5px;
+    left: 10%;
+    margin-top: -38px;
+    min-width: 29px;
+    max-width: 55px;
+    padding-left: 9px;
+    padding-top: 5px;
+}
+
+.update:hover {
+    color: #f6b83e;
+    text-decoration: none;
+    border: 1px solid #f6b83e;
+    padding-left: 9px !important;
+    padding-top: 3px !important;
+}
+
+.more {
+    font-size: 16px;
+    font-family: Cairo;
+    border: none;
+    color: red;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: red 1px solid;
+    position: absolute;
+    bottom: -33px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-bottom: 23px;
+}
+
+
+
+
+.plus {
+    position: absolute;
+    color: #fff;
+    margin-right: -6px;
+    margin-top: 10px !important;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 820px;
+    height: 18vh !important;
+}
+
+.group_label_input {
+    right: 0px;
+    position: relative;
+    max-width: 600px;
+    top: 25px;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: "Cairo";
+}
+
+.user_reports {
+    position: relative;
+    background-color: #1b1a1a;
+    height: 35px;
+    max-width: 61%;
+    color: #fff;
+    border-radius: 7px;
+    padding-right: 3px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 40px !important;
+    font-family: Cairo;
+    border-right: 5px solid #f6b83e;
+}
+
+.bar {
+    background-color: #00ff00;
+}
+
+.percent {
+    position: absolute;
+    left: 50%;
+    color: black;
+}
+
+.edit_user_reports {
+    position: relative;
+    background-color: #1b1a1a;
+    height: 35px;
+    max-width: 90%;
+    color: #fff;
+    border-radius: 17.5px 0px 0px 0px;
+    padding-right: 3px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adding_page {
+    position: relative;
+    max-width: 820px;
+    min-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white !important;
+}
+
+.get_back {
+    position: absolute;
+    font-size: 30px;
+    margin-right: -52px;
+    margin-left: 0px;
+    color: #f6b83e;
+    margin-top: 9px;
+}
+
+.adding_page1 {
+    background-color: rgb(255, 255, 255) !important;
+    height: 120vh !important;
+}
+
+.get_back_edeting {
+    position: absolute;
+    font-size: 30px;
+    margin-right: -40px;
+    margin-left: 0px;
+    color: #f6b83e;
+    margin-top: 9px;
+}
+
+.get_back_groups {
+    position: absolute;
+    font-size: 30px;
+    margin-right: -15px;
+    margin-left: 10px;
+    color: #f6b83e;
+    margin-top: 37px;
+}
+
+.groups_label {
+    position: relative;
+    margin-right: 60px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.whole_page {
+    position: relative;
+    width: 70%;
+    max-width: 600px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.basic_user_report {
+    height: 100vh !important;
+}
+
+@media only screen and (max-width: 1500px) {
+    .whole_page {
+        width: 30%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .previous_reports {
+        font-size: 20px !important;
+        margin-right: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .whole_page {
+        width: 35%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 900px) {
+    .whole_page {
+        width: 50%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .update {
+        position: absolute;
+        width: 30%;
+        background-color: #1b1a1a;
+        color: #f6b83e;
+        margin-right: 10%;
+        height: 30px;
+        border-radius: 5px;
+        left: 8%;
+        margin-top: -39px;
+        min-width: 29px;
+        max-width: 55px;
+        padding-left: 10px !important;
+        padding-top: 3px;
+    }
+
+    .account_gear {
+        margin-top: -107px !important;
+    }
+
+    .signout {
+        margin-top: -69px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .whole_page {
+        width: 60%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .account_gear {
+        margin-top: -106px !important;
+    }
+
+    .signout {
+        margin-top: -68px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .group_buttons {
+        font-size: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .user_reports {
+        position: relative;
+        background-color: #1b1a1a;
+        height: 35px;
+        max-width: 61%;
+        color: #fff;
+        border-radius: 7px;
+        padding-right: 3px;
+        padding-left: 10px;
+        padding-top: 5px;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 14px;
+        margin-right: 40px !important;
+        font-family: Cairo;
+        border-right: 5px solid #f6b83e;
+    }
+
+    .add_user_report {
+        font-size: 15px;
+        font-family: Cairo;
+        line-height: auto;
+        top: 24px;
+        background-color: #1b1a1a;
+        height: 27px;
+        border-radius: 7px;
+        border: 1px solid #1b1a1a;
+        width: 170px;
+        color: #fff;
+    }
+
+    .whole_page2 {
+        height: 331px !important;
+    }
+
+    /* .user_photo {
+        margin-top: -55px !important;
+    } */
+
+    .update {
+        width: 400px !important;
+    }
+
+    .update {
+        position: absolute;
+        width: 20%;
+        background-color: #1b1a1a;
+        color: #f6b83e;
+        margin-right: 10%;
+        height: 32px;
+        border-radius: 5px;
+        left: 10%;
+        margin-top: -38px;
+        min-width: 50px;
+        max-width: 105px;
+        /* padding-left: 9px;
+        padding-top: 5px; */
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px) {
+    .width_black {
+        width: 100% !important;
+        margin-left: 0%;
+        display: none;
+    }
+
+    .adding_page1 {
+        background-color: rgb(255, 255, 255) !important;
+        height: 140vh !important;
+    }
+}
+
+.whole_page center {
+    max-width: 600px;
+}
+
+/* .select2-container--default select2-container--focus {
+    position: absolute;
+    width: 130% !important;
+} */
+
+.select2-container {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.selecting2 {
+    position: relative;
+    width: 100%;
+}
+
+.select_user_report {
+    background-color: #f0f0f0;
+    height: 35px;
+    width: 90%;
+    border-radius: 7px;
+    border: 1px solid rgba(27, 26, 26, 0);
+    margin-top: -5px;
+    margin-right: 5% !important;
+    padding-right: 10px;
+}
+
+.user_report_date {
+    width: 90% !important;
+    margin-right: 5% !important;
+    border-radius: 7px !important;
+}
+
+.user_report_notes {
+    position: relative;
+    background-color: #f0f0f0;
+    height: 143px;
+    width: 90%;
+    border-radius: 7px;
+    border: 1px solid rgba(27, 26, 26, 0);
+    background: repeating-linear-gradient(
+        #f0f0f0,
+        rgba(27, 26, 26, 0.20000000298023224) 1,
+        #f0f0f0 1px,
+        #f0f0f0 20px
+    );
+    margin-right: 5% !important;
+    margin-top: -5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.user_report_description {
+    position: relative;
+    background-color: #f0f0f0;
+    height: 100px;
+    width: 90%;
+    margin-right: 5% !important;
+    border-radius: 7px;
+    border: 1px solid rgba(27, 26, 26, 0);
+    margin-top: -5px;
+    background: repeating-linear-gradient(
+        #f0f0f0,
+        rgba(27, 26, 26, 0.20000000298023224) 1,
+        #f0f0f0 1px,
+        #f0f0f0 20px
+    );
+    padding: 10px;
+    font-size: 16px;
+}
+
+.user_report_date {
+    position: relative;
+    background-color: #f0f0f0;
+    height: 43px;
+    /* width: 100%; */
+    border-radius: 7px;
+    border: 1px solid rgba(27, 26, 26, 0);
+    background: repeating-linear-gradient(
+        #f0f0f0,
+        rgba(27, 26, 26, 0.20000000298023224) 1,
+        #f0f0f0 1px,
+        #f0f0f0 20px
+    );
+    margin-top: -5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.user_report_attachments {
+    position: relative;
+    background-color: #f0f0f0;
+    /* height: 100px; */
+    width: 90%;
+    border-radius: 7px;
+    border: 1px solid rgba(27, 26, 26, 0);
+    background: repeating-linear-gradient(
+        #f0f0f0,
+        rgba(27, 26, 26, 0.20000000298023224) 1,
+        #f0f0f0 1px,
+        #f0f0f0 20px
+    );
+    margin-top: -5px;
+    font-size: 20px;
+    margin-right: 5% !important;
+}
+
+.forner3 {
+    height: 80px !important;
+}
+
+.icon {
+    top: 24px !important;
+    cursor: pointer;
+}
+
+.progressBar {
+    position: relative;
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+.add_button {
+    position: absolute;
+    max-width: 600px;
+}
+
+@media only screen and (max-width: 2000px) {
+    .add_user_report {
+        right: -36%;
+        /* width: 300px; */
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    .whole_page {
+        width: 27%;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    .user_reports {
+        font-size: 15px !important;
+        width: 160px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        margin-right: 37px !important;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .whole_page {
+        right: -9%;
+    }
+}
+
+.group_icon {
+    color: #fff;
+    position: absolute;
+    margin-right: 29px;
+    margin-top: 35px;
+    width: 2em;
+    height: 2em;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.group_title {
+    position: absolute;
+    right: 3%;
+    margin-top: -30px;
+}
+
+.group_title_chat {
+    position: absolute;
+    right: 3%;
+}
+
+.bi-search {
+    position: absolute;
+    color: #fff;
+    top: 30px;
+    left: 68px;
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.bi-heart-fill {
+    position: absolute;
+    color: #fff;
+    top: 30px;
+    left: 104px;
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.group_page {
+    position: relative;
+    height: 860px;
+}
+
+.group_names {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 820px;
+    background-color: #f0f0f0;
+    height: 153px;
+    border-bottom: 1px solid #1b1a1a;
+    /* padding-right: 33%; */
+    white-space: nowrap;
+    overflow-x: visible;
+    overflow-y: hidden;
+}
+
+.groups {
+    position: absolute;
+    z-index: 1 !important;
+    max-width: 100%;
+    width: 100%;
+}
+
+.chats {
+    position: absolute;
+    z-index: 1 !important;
+    /* max-width: 100%;
+    width: 100%; */
+}
+
+.chat_label {
+    font-size: 15px;
+    font-family: Cairo;
+    line-height: auto;
+    top: 24px;
+    background-color: #1b1a1a;
+    height: 37px;
+    border-radius: 7px;
+    border: 1px solid #1b1a1a;
+    color: #fff;
+    margin-top: 28px;
+    margin-right: 65px;
+}
+
+.account_label_title {
+    font-size: 15px;
+    font-family: Cairo;
+    line-height: auto;
+    top: 24px;
+    background-color: #1b1a1a;
+    height: 37px;
+    border-radius: 7px;
+    border: 1px solid #1b1a1a;
+    color: #fff;
+    margin-top: 28px;
+    margin-right: 65px;
+}
+
+.get_back_chats {
+    position: absolute;
+    font-size: 30px;
+    margin-right: -15px;
+    margin-left: 10px;
+    color: #f6b83e;
+    margin-top: 21px;
+}
+
+.get_back_account {
+    position: absolute;
+    font-size: 30px;
+    margin-right: -15px;
+    margin-left: 10px;
+    color: #f6b83e;
+    margin-top: 25px !important;
+}
+
+.selected_group {
+    /* position: relative;
+    max-width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1 !important; */
+
+    position: relative;
+    max-width: 820px;
+    margin-bottom: -21px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1 !important;
+    background-color: #fff;
+}
+
+.selected_chat {
+    position: relative;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1 !important;
+    padding-right: 20px !important;
+}
+
+.group_photo1 {
+    width: 73px;
+    height: 73px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: #1b1a1a solid 5px;
+}
+
+.group_labels {
+    font-weight: bolder;
+    position: relative;
+}
+
+.group span {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 13px;
+    margin-right: -21px;
+}
+
+.status {
+    position: absolute;
+    color: green;
+    margin-right: 78px;
+    margin-top: -30px;
+}
+
+.online {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -75px;
+}
+
+.message1 {
+    top: 10px;
+    right: 40px;
+    background-color: #bbb9b9;
+    width: 70%;
+    max-width: 820;
+    border-radius: 7px;
+    border: 1px solid rgba(27, 26, 26, 0.029999999329447746);
+    position: relative;
+    padding: 7px;
+}
+
+.sending_input {
+    font-size: 18px;
+}
+
+.ok {
+    color: #1b1a1a;
+    width: 7px;
+    height: 7px;
+}
+
+.person {
+    font-size: 15px;
+    color: #2554ef;
+    padding-left: 5px !important;
+}
+
+.add_user_report {
+    font-size: 15px;
+    font-family: Cairo;
+    line-height: auto;
+    top: 24px;
+    background-color: #1b1a1a;
+    height: 37px;
+    border-radius: 7px;
+    border: 1px solid #1b1a1a;
+    width: 170px;
+    color: #f6b83e;
+}
+
+.message1 .date1 {
+    position: absolute;
+    left: 6px;
+    font-size: 11px !important;
+    top: 0;
+}
+
+.message2 {
+    top: 10px;
+    left: -40px;
+    right: 50px;
+    background-color: rgba(59, 57, 57, 0.07999999821186066);
+    width: 90%;
+    max-width: 820px;
+    border-radius: 7px;
+    border: 1px solid rgba(27, 26, 26, 0.029999999329447746);
+    position: relative;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.message2 .date2 {
+    position: absolute;
+    right: 11px;
+    font-size: 6px !important;
+    top: 0;
+}
+
+.sending_input {
+    position: absolute;
+    background-color: #f0f0f0;
+    height: 35px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #1b1a1a;
+    position: relative;
+    bottom: 0;
+    max-width: 820;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    padding-right: 6px;
+}
+
+.input_icon_send {
+    position: relative;
+    bottom: 15px;
+    max-width: 820px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input_icon_send_group {
+    position: absolute;
+    bottom: 15px;
+    max-width: 820px;
+    width: 75%;
+    margin-right: -108px;
+}
+
+.sending_icon {
+    position: absolute;
+    transform: rotate(228deg);
+    color: orange;
+    font-size: 17px;
+    left: 3%;
+    bottom: 4px;
+}
+
+.sending_chat_icon {
+    position: absolute;
+    transform: rotate(228deg);
+    color: orange;
+    font-size: 17px;
+    left: 4%;
+    bottom: 21px;
+}
+
+.chat {
+    position: relative;
+    width: 100%;
+    max-width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+}
+
+.chat_icon {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    margin-right: 31px;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.account_icon_title {
+    color: #fff;
+    font-size: 26px;
+    position: absolute;
+    margin-right: 31px;
+    font-size: 22px;
+    margin-top: 29px !important;
+}
+
+.setting_account {
+    position: relative;
+    font-family: Cairo;
+    margin-top: 11px;
+    line-height: auto;
+    background-color: #1b1a1a;
+    height: 32px;
+    color: #fff;
+    right: 30px;
+}
+
+.add_report_label {
+    position: relative;
+    font-family: Cairo;
+    margin-right: 30px;
+    margin-top: 12px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#settings {
+    display: none;
+}
+
+.settings_title {
+    position: absolute;
+    right: 8%;
+    margin-top: -6px;
+}
+
+.account_settings {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(173, 178, 166, 0.6000000238418579);
+    height: 32px;
+    width: 152px;
+    border-radius: 0px 16px 0px 0px;
+    border: 1px solid #f6b83e;
+    left: 51px;
+    top: 46px;
+    padding-top: 2px;
+    padding-right: 35px;
+    font-size: 19px;
+    z-index: 1;
+}
+
+.logout {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(173, 178, 166, 0.9000000238418579);
+    height: 32px;
+    width: 152px;
+    border-radius: 0px 16px 0px 0px;
+    border: 1px solid #f6b83e;
+    left: 51px;
+    top: 81px;
+    padding-top: 2px;
+    padding-right: 9px;
+    font-size: 15px;
+    z-index: 2;
+}
+
+.base_account_logo {
+    max-width: 600px;
+}
+
+.account_logo {
+    margin-top: 80px;
+    height: 144px;
+    width: 144px;
+    border: solid 5px #000;
+    border-radius: 50%;
+}
+
+.camera {
+    position: absolute;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.camera_background {
+    position: absolute;
+    margin-top: -145px;
+    background-color: #000;
+    margin-right: 95px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+@media only screen and (max-width: 481px) and (min-width: 350px) {
+    .password_label {
+        margin-right: 54px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) and (min-width: 280px) {
+    .password_label {
+        margin-right: 23px !important;
+    }
+
+    .justify-content-around {
+        /* width: 90% !important; */
+        font-size: 1px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .camera_background {
+        margin-right: 94px;
+    }
+}
+
+.gear {
+    position: absolute;
+    color: #fff;
+    margin-top: 16px;
+    font-size: 22px;
+}
+
+.group_passwords {
+    background-color: red;
+    position: relative;
+    max-width: 500px;
+    min-width: 280px;
+    width: 370px;
+}
+
+.group_password {
+    position: relative;
+    width: 820px;
+    height: 50px;
+}
+
+.new_password {
+    position: relative;
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.password_label {
+    margin-right: 70px;
+    font-family: "Cairo";
+    /* margin-top: 20px; */
+}
+
+.passwords {
+    position: absolute;
+    margin-top: 30px;
+    min-width: 250px;
+    max-width: 500px;
+    /* width: 370px; */
+}
+
+.setting_passwords {
+    position: relative;
+    width: 820px;
+}
+
+.current_password {
+    background-color: #d9d9d9;
+    height: 35px;
+    font-size: 25px;
+    padding-right: 10px;
+    min-width: 75%;
+    border-radius: 10px;
+    border: 1px solid rgba(27, 26, 26, 0.5899999737739563);
+}
+
+.eye {
+    position: absolute;
+    font-size: large;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-right: -25px;
+}
+
+.account_gear {
+    position: absolute;
+    margin-top: -108px;
+    left: 174px;
+    font-size: 20px;
+    color: #333;
+    z-index: 2;
+}
+
+.account_label {
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.account_label_account {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2px;
+    margin-right: -12px;
+}
+
+.account_gear_pages {
+    position: absolute;
+    margin-top: 21px;
+    left: 174px;
+    font-size: 20px;
+    color: #1c1a1a;
+    z-index: 2;
+}
+
+.signout_pages {
+    position: absolute;
+    margin-top: 57px;
+    left: 174px;
+    font-size: 20px;
+    width: 20px;
+    font-size: 20px;
+    color: #1c1a1a;
+    z-index: 2;
+}
+
+.signout {
+    position: absolute;
+    margin-top: -68px;
+    left: 175px;
+    font-size: 20px;
+    width: 20px;
+    font-size: 20px !important;
+    color: #333;
+    z-index: 2;
+}
+
+.report_form {
+    position: relative;
+    width: 820px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dz-message {
+    position: relative;
+    background-color: #f0f0f0;
+    /* height: 100px; */
+    width: 54% !important;
+    border-radius: 21px 0px 21px 21px;
+    border: 1px solid rgba(27, 26, 26, 0);
+    background: repeating-linear-gradient(
+        #f0f0f0,
+        rgba(27, 26, 26, 0.20000000298023224) 1,
+        #f0f0f0 1px,
+        #f0f0f0 20px
+    );
+    margin-top: -5px;
+    font-size: 20px;
+    max-width: 600px;
+    height: 38px;
+}
+
+/* 
+ */
+@media screen and (max-width: 320px) {
+    .group_names {
+        /* padding-right: 80% !important; */
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .password_label {
+        margin-right: 11px !important;
+    }
+
+    .chat_edit_label {
+        margin-top: 13px;
+    }
+
+    .get_back_edeting {
+        font-size: 25px !important;
+        margin-right: -31px !important;
+        margin-top: 12px !important;
+    }
+
+    .get_back {
+        margin-top: 5px !important;
+        margin-right: -19px !important;
+        font-size: 24px !important;
+    }
+
+    .get_back_edeting {
+        margin-top: 13px !important;
+        margin-right: -24px !important;
+        font-size: 20px !important;
+    }
+
+    .plus {
+        margin-right: 9px !important;
+        margin-top: 6px !important;
+        font-size: 11px;
+    }
+
+    .add_report_label {
+        margin-right: 34px !important;
+        font-size: 12px !important;
+    }
+
+    .group_icon {
+        margin-top: 28px !important;
+    }
+
+    .get_back_groups {
+        margin-right: -4px !important;
+        margin-top: 32px;
+    }
+
+    .forner {
+        width: 280px !important;
+    }
+
+    .user_reports {
+        font-size: 10px !important;
+        height: 28px;
+    }
+
+    .inteface {
+        width: 100%;
+    }
+
+    .chat_label {
+        margin-top: 24px !important;
+        margin-right: 52px !important;
+    }
+
+    .account_chat_label {
+        margin-top: 24px !important;
+        margin-right: 52px !important;
+    }
+
+    .get_back_chats {
+        font-size: 23px !important;
+        margin-right: -5px !important;
+        margin-top: 18px !important;
+    }
+
+    .get_back_account {
+        font-size: 23px !important;
+        margin-right: -5px !important;
+        margin-top: 24px !important;
+    }
+
+    .chat_icon {
+        font-size: 18px !important;
+        margin-top: 22px !important;
+    }
+
+    .account_icon_title {
+        font-size: 18px !important;
+        margin-top: 26px !important;
+    }
+
+    .all_user_reports label {
+        font-size: 10px !important;
+        margin-top: 11px !important;
+        margin-right: 15px !important;
+    }
+
+    .update {
+        margin-right: 40px;
+        position: absolute;
+        width: 20%;
+        background-color: #1b1a1a;
+
+        position: absolute;
+        width: 20%;
+        background-color: #1b1a1a;
+        color: #f6b83e;
+        margin-right: 10%;
+        height: 32px;
+        border-radius: 5px;
+        left: 4%;
+        margin-top: -38px;
+        min-width: 29px;
+        max-width: 55px;
+        padding-left: 9px;
+        padding-top: 5px;
+    }
+}
+
+.username1 {
+    width: 80% !important;
+    padding-right: 10px !important;
+    font-family: Cairo !important;
+}
+
+.username {
+    margin-top: 20px;
+    margin-right: 20% !important;
+    font-family: Cairo !important;
+}
+
+.login {
+    font-size: 12px;
+    margin-top: 20px;
+    height: 31px;
+    color: #f6b83e;
+    background-color: #1c1a1a;
+    border-radius: 10px;
+    border: 1px solid rgba(27, 26, 26, 0.5);
+    width: 96px !important;
+    margin-right: 3% !important;
+}
+
+@media only screen and (max-width: 481px) and (min-width: 280px) {
+    .message2 {
+        margin-right: 3%;
+        right: 10px;
+        width: 92%;
+    }
+
+    .message1 {
+        right: 10px;
+        width: 92%;
+    }
+
+    .forner {
+        width: 100% !important;
+    }
+
+    .inteface {
+        width: 100%;
+        margin-top: 36px;
+    }
+
+    /* 
+    label {
+        font-size: 12px !important;
+        padding-top: 6px;
+    } */
+
+    .username1 {
+        width: 90% !important;
+        padding-right: 10px !important;
+        font-family: Cairo !important;
+    }
+
+    .username1 {
+        font-size: 20px;
+        font-family: Cairo !important;
+        /* margin-right: 30%; */
+        background-color: #f0f0f0;
+        height: 41px;
+        border-radius: 10px;
+        border: 1px solid rgba(27, 26, 26, 0.5099999904632568);
+    }
+
+    .username {
+        margin-right: 5% !important;
+        margin-bottom: 15px !important;
+    }
+
+    .login {
+        font-size: 15px;
+        margin-top: 20px;
+        height: 40px;
+        color: #f6b83e;
+        background-color: #1c1a1a;
+        border-radius: 10px;
+        border: 1px solid rgba(27, 26, 26, 0.5);
+        width: 50% !important;
+        /* margin-right: 4% !important; */
+    }
+
+    .user_reports {
+        height: 28px;
+        width: 100px;
+        border-radius: 7px;
+        padding-right: 3px;
+        padding-left: 10px;
+        padding-top: 5px;
+        /* margin-top: 50px; */
+        font-size: 10px !important;
+        margin-right: 20px !important;
+        font-family: Cairo;
+        border-right: 5px solid #f6b83e;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .signout_pages {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 481px) {
+    .add_report_label {
+        margin-right: 20px;
+    }
+
+    .group_names {
+        padding-right: 48% !important;
+    }
+
+    .plus {
+        width: 20px !important;
+        margin-top: 10px !important;
+    }
+
+    .get_back {
+        font-size: 25px;
+        margin-right: -39px;
+        color: #f6b83e;
+        margin-top: 11px;
+        position: absolute;
+    }
+
+    .get_back_edeting {
+        font-size: 30px;
+        margin-right: -39px;
+        color: #f6b83e;
+        margin-top: 11px;
+        position: absolute;
+    }
+
+    .forner {
+        width: 100% !important;
+    }
+
+    .inteface {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .username1 {
+        width: 100% !important;
+        padding-right: 10px;
+    }
+
+    .username {
+        margin-bottom: 25px !important;
+    }
+
+    .login1 {
+        margin-top: 20px !important;
+    }
+
+    .login {
+        font-size: 15px;
+        margin-top: 10px;
+        height: 33px;
+        color: #f6b83e;
+        background-color: #1c1a1a;
+        border-radius: 10px;
+        border: 1px solid rgba(27, 26, 26, 0.5);
+        width: 200px !important;
+        margin-right: 4% !important;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .add_report_label {
+        margin-top: 12px !important;
+    }
+
+    .adding_page1 {
+        background-color: rgb(255, 255, 255) !important;
+        height: 140vh !important;
+    }
+
+    .groups_label {
+        margin-top: 41px !important;
+    }
+
+    .chat_label {
+        margin-top: 25px !important;
+        margin-right: 54px;
+    }
+
+    .account_chat_label {
+        margin-top: 19px !important;
+        margin-right: 54px;
+    }
+
+    .chat_icon {
+        margin-top: 21px;
+    }
+
+    .account_icon_title {
+        margin-top: 21px;
+    }
+
+    .get_back_chats {
+        margin-top: 16px;
+    }
+
+    .get_back_account {
+        margin-top: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .forner {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 915px) and (min-width: 600px) {
+    .forner {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .inteface {
+        /* width: 100%; */
+        /* margin-right: -10%; */
+        margin-top: 40px;
+        font-size: 20px !important;
+    }
+
+    .username1 {
+        height: 50px;
+        width: 500px !important;
+        padding-right: 10px !important;
+    }
+
+    .username {
+        margin-top: 50px;
+        margin-right: 10% !important;
+        margin-bottom: 35px !important;
+    }
+
+    .login1 {
+        margin-top: 20px !important;
+    }
+
+    .login {
+        font-size: 20px !important;
+        margin-top: 20px;
+        height: 53px;
+        color: #f6b83e;
+        background-color: #1c1a1a;
+        border-radius: 10px;
+        border: 1px solid rgba(27, 26, 26, 0.5);
+        width: 400px !important;
+        /* margin-right: 3% !important; */
+        padding-bottom: 4px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .inteface {
+        width: 100%;
+    }
+
+    /* label {
+        font-size: 21px !important;
+    } */
+
+    .username1 {
+        width: 300px !important;
+        height: 40px !important;
+        padding-right: 10px !important;
+    }
+
+    .username {
+        margin-top: 20px !important;
+        margin-right: 20% !important;
+        margin-bottom: 35px !important;
+    }
+
+    .login1 {
+        margin-top: 20px !important;
+    }
+
+    .login {
+        font-size: 14px;
+        margin-top: 20px;
+        height: 35px;
+        color: #f6b83e;
+        background-color: #1c1a1a;
+        border-radius: 10px;
+        border: 1px solid rgba(27, 26, 26, 0.5);
+        width: 150px !important;
+        margin-right: 18% !important;
+    }
+}
+
+.send_message_button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/* scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(91, 89, 89);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2a2929;
+}
+
+.basic_user_report {
+    height: 70vh !important;
+}
+
+@media only screen and (max-width: 290px) {
+    .messaging {
+        position: relative;
+        height: 250px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 50vh;
+    }
+}
+
+@media only screen and (min-width: 290px) and (max-width: 360px) {
+    .messaging {
+        position: relative;
+        height: 260px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 70vh;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+    .messaging {
+        position: relative;
+        height: 330px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 60vh;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 390px) {
+    .messaging {
+        position: relative;
+        height: 280px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 55vh;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 400px) {
+    .messaging {
+        position: relative;
+        height: 440px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 65vh;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .messaging {
+        position: relative;
+        height: 500px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 65vh;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .messaging {
+        position: relative;
+        height: 300px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 55vh;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .messaging {
+        position: relative;
+        height: 570px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 70vh;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 900px) {
+    .messaging {
+        position: relative;
+        height: 700px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 75vh;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+    .messaging {
+        position: relative;
+        height: 900px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        height: 78vh;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .messaging {
+        position: relative;
+        height: 150px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        width: 820px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70vh;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .messaging {
+        position: relative;
+        height: 340px;
+        overflow-y: scroll;
+        background: white;
+        padding-top: 20px;
+    }
+    .login_div {
+        background-color: rgb(255, 255, 255) !important;
+        width: 820px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70vh;
+    }
+}
